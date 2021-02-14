@@ -19,7 +19,7 @@
 	
 	/* ampliar Ancho del content del tema */
 	[class*=inner-container] > :not(.entry-content):not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.wp-block-separator):not(.woocommerce) {
-		max-width: 87rem;
+		max-width: 1240px;
 		width: calc(100% - 8rem);
 	}
 }
