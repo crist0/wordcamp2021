@@ -10,10 +10,15 @@
 	width: 100%;
 }
 .background-hero-vcv{
-	background-image: url('https://venezuela.wordcamp.org/2021/files/2021/02/fondo-provisional.jpg');
-	background-size: cover;
-	background-position: bottom center;
+	background-image: url('https://venezuela.wordcamp.org/2021/files/2021/02/fondo-provisional-wcv.jpg');
+	background-size: contain;
+	background-position: bottom left;
 	background-repeat: no-repeat;
+	margin-bottom: 0;
+    padding-bottom: 150px;
+}
+.wp-block-button .wp-block-button__link{
+	border:none;
 }
 /* Estilos Mayor a 482px */
 @media only screen and (min-width: 482px) {
