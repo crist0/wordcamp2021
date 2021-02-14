@@ -1,1 +1,25 @@
 /* Hoja de estilos para WordCamp Venezuela 2021 */
+/* Quitar padding de main */
+.site-main {
+	padding: 0;
+}
+
+/* Ampliar ancho de contenedores */
+.entry-content > :not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.wp-block-separator):not(.woocommerce) {
+	max-width: 100%;
+	width: 100%;
+}
+
+/* Estilos Mayor a 482px */
+@media only screen and (min-width: 482px) {
+	/* Header Padding y Margin */
+	.site-header {
+		padding: 0;
+	}
+	
+	/* ampliar Ancho del content del tema */
+	[class*=inner-container] > :not(.entry-content):not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.wp-block-separator):not(.woocommerce) {
+		max-width: 87rem;
+		width: calc(100% - 8rem);
+	}
+}
