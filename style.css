@@ -9,7 +9,12 @@
 	max-width: 100%;
 	width: 100%;
 }
-
+.background-hero-vcv{
+	background-image: url('https://venezuela.wordcamp.org/2021/files/2021/02/fondo-provisional.jpg');
+	background-size: cover;
+	background-position: bottom center;
+	background-repeat: no-repeat;
+}
 /* Estilos Mayor a 482px */
 @media only screen and (min-width: 482px) {
 	/* Header Padding y Margin */
