@@ -23,6 +23,9 @@
 	background-color: #920000;
 	color:#fff;
 }
+.site-footer{
+	margin-top:0;
+}
 /* Estilos Mayor a 482px */
 @media only screen and (min-width: 482px) {
 	/* Header Padding y Margin */
