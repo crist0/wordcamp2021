@@ -11,14 +11,17 @@
 }
 .background-hero-vcv{
 	background-image: url('https://venezuela.wordcamp.org/2021/files/2021/02/fondo-provisional-wcv.jpg');
-	background-size: contain;
+	background-size: cover;
 	background-position: bottom left;
 	background-repeat: no-repeat;
 	margin-bottom: 0;
     padding-bottom: 150px;
+    padding-top: 50px;
 }
 .wp-block-button .wp-block-button__link{
 	border:none;
+	background-color: #920000;
+	color:#fff;
 }
 /* Estilos Mayor a 482px */
 @media only screen and (min-width: 482px) {
